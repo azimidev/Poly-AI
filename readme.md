@@ -56,13 +56,13 @@ The first line of the standard input contains the two numbers N and M, and both 
 Write one number to the standard output that represents the number of pizzerias that deliver pizzas to the block with the greatest selection of pizzas.
 
 Input:
+
 5 2
-
 3 3 2
-
 1 1 2
 
 Output:
+
 2
 
 ## Explanation
@@ -70,37 +70,25 @@ Output:
 The first pizzeria delivers pizzas to the following blocks:
 
 00X00
-
 0XXX0
-
 XXXXX
-
 0XXX0
-
 00X00
 
 and the second one:
 
 00000
-
 00000
-
 X0000
-
 XX000
-
 XXX00
 
 So the number of pizzerias that deliver pizzas to each block is:
 
 00100
-
 01110
-
 21111
-
 12110
-
 11200
 
 So the maximum number is 2.
