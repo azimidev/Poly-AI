@@ -24,7 +24,7 @@ class Block:
             raise Exception('Range must be between 1 to 100')
 
         if (location[0] < 1) | (location[1] > dimension):
-            raise Exception('Location must be within {} x {}'.format(dimension, dimension))
+            raise Exception(f"Location must be within {dimension} x {dimension}.")
 
         if (dimension < 1) | (dimension > 1000):
             raise Exception('Dimensions is not valid!')
